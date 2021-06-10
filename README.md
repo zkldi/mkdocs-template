@@ -10,5 +10,9 @@ If you're in a horribly hellish python environment like me (Sorry Sera, you know
 
 - `git init`
 - `git pull https://github.com/zkldi/mkdocs-template`
-- `pip install mkdocs-material`
+- `pip(3) install mkdocs-material`
 - `mkdocs serve`
+
+# About
+
+`mkdocs-material` is a beautiful theme to work with and look at. The rest is just a file structure I like and some sensible defaults.
