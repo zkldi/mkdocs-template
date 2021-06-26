@@ -4,9 +4,22 @@ site_author: Author
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
   palette:
-    scheme: slate
-
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 nav:
   - Introduction: "index.md"
 
@@ -14,3 +27,15 @@ markdown_extensions:
   - admonition
   - pymdownx.highlight
   - pymdownx.superfences
+  - abbr
+  - pymdownx.snippets
+  - footnotes
+  - toc:
+      toc_depth: 2
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
