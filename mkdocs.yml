@@ -1,6 +1,7 @@
-site_name: Project Name
-site_description: Project Description
-site_author: Author
+site_name: Name
+site_description: Description
+site_author: zkldi
+site_url: example.com
 
 theme:
   name: material
@@ -20,6 +21,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+
 nav:
   - Introduction: "index.md"
 
